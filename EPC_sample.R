@@ -35,7 +35,7 @@ df1c <- fread("~/Google_Drive/PhD/Papers/Paper_1_research/data/DEP/Raw_data/Post
 #write file complete
 #fwrite(data, "~/Dropbox/chapters_and_papers/paper_2/epc_certificates.csv", row.names = F)
 
-EPC <- fread("~/Google_Drive/PhD/Papers/all-domestic-certificates-2/domestic-E08000004-Oldham/certificates.csv")[,c(2:5, 7:13, 17:18)]
+EPC <- fread("~/Google_Drive/PhD/Papers/all-domestic-certificates-2/domestic-E08000004-Oldham/certificates.csv")
 EPC_OA <- fread("Data/epcoa.csv")
 
 
